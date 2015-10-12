@@ -3,8 +3,6 @@ published: true
 ---
 
 
-## InfoPath Analyzer is open source now
-
 Well, finally I made this decision. The source code is now hosted on [github](https://github.com/mazong1123/infopathanalyzer "InfoPath Analyzer"). There are couple of reasons for opening the source code of IA:
 
 1. Microsoft stopped the development of InfoPath. There is no roadmap of it, says, InfoPath retired.
