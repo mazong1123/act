@@ -1,4 +1,6 @@
 ---
+layout: post
+title: "InfoPath Analyzer is open source now"
 published: true
 ---
 
