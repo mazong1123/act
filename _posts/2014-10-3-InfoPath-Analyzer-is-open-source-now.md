@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 ## InfoPath Analyzer is open source now
 
