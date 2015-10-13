@@ -17,4 +17,4 @@ Want to know me more about project expierences and technical stuffs? Please chec
 
 ### Contact me
 
-[mazong1123#gmail.com](mailto:mazong1123@gmail.com)
+[mazong1123@gmail.com](mailto:mazong1123@gmail.com)
