@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Alternative way to resolve "stream_select(): You MUST recompile PHP with a larger value of FD_SETSIZE" issue without recompiling PHP
+title: Alternative way to resolve stream_select(): You MUST recompile PHP with a larger value of FD_SETSIZE issue without recompiling PHP
 date: 2014-02-08 12:05
 author: mazong1123
 comments: true
