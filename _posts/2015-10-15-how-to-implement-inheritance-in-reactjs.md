@@ -15,7 +15,7 @@ address code reusable issue, which makes me more frustrated. OK, I'm an old scho
 
 That's why I developed [ReactOO](https://github.com/mazong1123/reactoo). By leveraging ReactOO, we can build react component in a classic
 OO way. Following is an example to build a simple Button component:
-```javascript
+
     window.ButtonClass = window.ReactOO.ReactBase.extend({
         getReactDisplayName: function () {
             return 'Button';
@@ -36,7 +36,7 @@ OO way. Following is an example to build a simple Button component:
     
     var button = new window.ButtonClass();
     button.render({ text: 'Button' }, '#normalButton');
-```
+
 Now everything looks more classic. At first, we defined a ButtonClass, which inherits from the base window.ReactOO.ReactBase class. Then we created an instance of ButtonClass and call its render() method to render itself to an element with 'normalButton' id.
 
 You probably noticed the **getButtonPropery** method. It can be overrided in the subclass, and the Button property could be changed. Nothing new, just overriding in the OO way. Let's build a StyledButtonClass in this manner:
