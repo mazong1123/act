@@ -92,4 +92,6 @@ This time, we defined a class StyledButtonWithClickHandlerClass which inherits f
 
 Please note for any [react life cycle methods](https://facebook.github.io/react/docs/component-specs.html) or javascript event handler (e.g: onClick, onSubmit), ReactOO provides built-in handler method in onReactxxx manner. A reactInstance can be used as a input parameter when you override these methods. [Please read the code sample and documentation for more details](https://github.com/mazong1123/reactoo).
 
+[Another example on StackOverflow](http://stackoverflow.com/a/33139559/2719128)
+
 Any bug or thoughts, please create an issue on [github](https://github.com/mazong1123/reactoo). Thanks :)
