@@ -41,7 +41,7 @@ Now everything looks more classic. At first, we defined a ButtonClass, which inh
 
 You probably noticed the **getButtonPropery** method. It can be overrided in the subclass, and the Button property could be changed. Nothing new, just overriding in the OO way. Let's build a StyledButtonClass in this manner:
 
-```javascript
+
     window.StyledButtonClass = window.ButtonClass.extend({
         getReactDisplayName: function () {
             return 'StyledButton';
@@ -59,11 +59,11 @@ You probably noticed the **getButtonPropery** method. It can be overrided in the
     
     var styledButton = new window.StyledButtonClass();
     styledButton.render({ text: 'Styled Button' }, '#styledButton');
-```
+
 StyledButtonClass inherits from ButtonClass, overrides the **getButtonProperty** to add a **className** property. Done. Pretty simple huh?
 
 How about add some interactions? Let's build a button with click handler and styled:
-```javascript
+
     window.StyledButtonWithClickHandlerClass = window.StyledButtonClass.extend({
         getReactDisplayName: function () {
             return 'StyledButtonWithClickHandler';
@@ -87,7 +87,7 @@ How about add some interactions? Let's build a button with click handler and sty
     
     var styledButtonWithClickHandler = new window.StyledButtonWithClickHandlerClass();
     styledButtonWithClickHandler.render({ text: 'Styled Button With Click Handler' }, '#styledButtonWithClickHandler');
-```
+
 This time, we defined a class StyledButtonWithClickHandlerClass which inherits from StyledButtonClass, overrided **getButtonProperty** method to add an onClick property. And then overrided **onReactHandleClick** method to provide the click handler code. That's it. 
 
 Please note for any [react life cycle methods](https://facebook.github.io/react/docs/component-specs.html) or javascript event handler (e.g: onClick, onSubmit), ReactOO provides built-in handler method in onReactxxx manner. A reactInstance can be used as a input parameter when you override these methods. [Please read the code sample and documentation for more details](https://github.com/mazong1123/reactoo).
