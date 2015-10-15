@@ -5,7 +5,7 @@ date: 2015-10-13 14:19
 author: mazong1123
 comments: true
 categories: [Uncategorized]
-published: false
+published: true
 ---
 
 [React.js](https://facebook.github.io/react/) is a great library to build view in component way. However, one thing makes me frustrated is
