@@ -37,4 +37,59 @@ OO way. Following is an example to build a simple Button component:
     var button = new window.ButtonClass();
     button.render({ text: 'Button' }, '#normalButton');
 ```
+Now everything looks more classic. At first, we defined a ButtonClass, which inherits from the base window.ReactOO.ReactBase class. Then we created an instance of ButtonClass and call its render() method to render itself to an element with 'normalButton' id.
+
+You probably noticed the **getButtonPropery** method. It can be overrided in the subclass, and the Button property could be changed. Nothing new, just overriding in the OO way. Let's build a StyledButtonClass in this manner:
+
+```javascript
+    window.StyledButtonClass = window.ButtonClass.extend({
+        getReactDisplayName: function () {
+            return 'StyledButton';
+        },
+
+        getButtonProperty: function (reactInstance) {
+            var self = this;
+            var property = self._super();
+
+            property.className = 'nice-button';
+
+            return property;
+        }
+    });
     
+    var styledButton = new window.StyledButtonClass();
+    styledButton.render({ text: 'Styled Button' }, '#styledButton');
+```
+StyledButtonClass inherits from ButtonClass, overrides the **getButtonProperty** to add a **className** property. Done. Pretty simple huh?
+
+How about add some interactions? Let's build a button with click handler and styled:
+```javascript
+    window.StyledButtonWithClickHandlerClass = window.StyledButtonClass.extend({
+        getReactDisplayName: function () {
+            return 'StyledButtonWithClickHandler';
+        },
+
+        getButtonProperty: function (reactInstance) {
+            var self = this;
+            var property = self._super();
+
+            property.onClick = reactInstance.handleClick;
+
+            return property;
+        },
+
+        onReactHandleClick: function (reactInstance, e) {
+            e.preventDefault();
+
+            alert('Clicked!');
+        }
+    });
+    
+    var styledButtonWithClickHandler = new window.StyledButtonWithClickHandlerClass();
+    styledButtonWithClickHandler.render({ text: 'Styled Button With Click Handler' }, '#styledButtonWithClickHandler');
+```
+This time, we defined a class StyledButtonWithClickHandlerClass which inherits from StyledButtonClass, overrided **getButtonProperty** method to add an onClick property. And then overrided **onReactHandleClick** method to provide the click handler code. That's it. 
+
+Please note for any [react life cycle methods](https://facebook.github.io/react/docs/component-specs.html) or javascript event handler (e.g: onClick, onSubmit), ReactOO provides built-in handler method in onReactxxx manner. A reactInstance can be used as a input parameter when you override these methods. [Please read the code sample and documentation for more details](https://github.com/mazong1123/reactoo).
+
+Any bug or thoughts, please create an issue on [github](https://github.com/mazong1123/reactoo). Thanks :)
