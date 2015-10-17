@@ -1,0 +1,15 @@
+---
+layout: post
+title: Windows 10: use ctrl+space to change input method.
+date: 2015-10-13 14:19
+author: mazong1123
+comments: true
+categories: [Uncategorized]
+published: false
+---
+
+If you're using multiple input methods, you'll notice that windows 10 only supports win + space to change input methods. It's really
+a pain for those who upgraded from windows 7. Fortunately, we have a simple way to save ctrl+space back in windows 10.
+
+##Mapping ctrl+space to win+space
+1. Dowanlod [AutoHotKey](http://www.autohotkey.com/).
