@@ -17,7 +17,7 @@ a pain for those who upgraded from windows 7. Fortunately, we have a simple way 
 ^Space::#Space
 
 3. Save the file to any location as "inputmethod.ahk".
-4. Right click "inputmethod.ahk", choose "Create a shotcut".
+4. Right click "inputmethod.ahk", choose "Create a shortcut".
 5. Copy "win10ChineseInutMethodFix.ahk - Shortcut" to "C:\Users\yourname\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup".
 Note: change "yourname" to your account name.
 6. Restart.
