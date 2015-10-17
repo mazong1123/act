@@ -13,7 +13,9 @@ a pain for those who upgraded from windows 7. Fortunately, we have a simple way 
 ##Mapping ctrl+space to win+space
 1. Dowanlod and install [AutoHotKey](http://www.autohotkey.com/).
 2. Open notepad, copy and paste following content:
+
 ^Space::#Space
+
 3. Save the file to any location as "inputmethod.ahk".
 4. Right click "inputmethod.ahk", choose "Create a shotcut".
 5. Copy "win10ChineseInutMethodFix.ahk - Shortcut" to "C:\Users\yourname\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup".
