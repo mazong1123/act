@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 10 use ctrl+space to change input method.
+title: Windows 10 - use ctrl+space to change input method.
 date: 2015-10-17 14:19
 author: mazong1123
 comments: true
