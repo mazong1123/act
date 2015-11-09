@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 10 - remote desktop to CentOS.
+title: Windows 10 - remote desktop to CentOS
 date: 2015-11-9 10:53
 author: mazong1123
 comments: true
