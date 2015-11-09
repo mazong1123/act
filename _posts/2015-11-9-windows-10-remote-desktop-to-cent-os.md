@@ -14,6 +14,7 @@ However, there's a missing step and some typos in the article. So I decide to re
 
 ##Step 1: Find OS Architecture
 First, su as root:
+
 ```javascript
 [xxx@BroeExpertsSRV~] $ su
 ```
