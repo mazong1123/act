@@ -16,7 +16,6 @@ However, there's a missing step and some typos in the article. So I decide to re
 First, su as root:
 
     [xxx@BroeExpertsSRV~] $ su
-
 Enter following command to find the OS architecture.
 
     [root@BroeExpertsSRV~] # uname -r
