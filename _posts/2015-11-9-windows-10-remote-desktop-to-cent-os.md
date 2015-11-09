@@ -8,7 +8,7 @@ categories: [Uncategorized]
 published: true
 ---
 
-Recently, I have a project needs to develop on CentOS with C/C++. I decided to setup a CentOS VM and remote from my Windows 10 PC.
+Recently, I have a project needs to be developed on CentOS with C/C++. I decided to setup a CentOS VM and remote from my Windows 10 PC.
 To enable the RDP from windows to linux, I've found a very useful article [HERE](http://broexperts.com/2014/07/how-to-remote-desktop-linux-machine-from-windows-7/).
 However, there's a missing step and some typos in the article. So I decide to re-write the article as following:
 
