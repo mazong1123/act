@@ -7,7 +7,7 @@ permalink: /about/
 
 Hello, I'm Jim, AKA [mazong1123](https://www.google.com/?gfe_rd=cr&ei=yXwcVqHPBqug8wfx-ouYBQ&gws_rd=cr&fg=1#q=mazong1123 "mazong1123").
 
-I'm a developer who loves all tech from front-end to back-end including Linux and Windows. I started coding when I was 9. I still remember I made my first game by using Basic 1.0 on a China's famouse game console - Xiao Ba Wang. Since then, I used a lot of programming language - C, C++, PASCAL, C#, Java, PHP, JavaScript, etc and never stopped my coding journey.
+I'm a developer who loves all tech from front-end to back-end including Linux and Windows. I started coding when I was 9. I still remember I made my first game by using Basic 1.0 on a China's famous game console - Xiao Ba Wang. Since then, I used a lot of programming language - C, C++, PASCAL, C#, Java, PHP, JavaScript, etc and never stopped my coding journey.
 
 I used to be a game hacker in the university. [TsubasaHack](https://www.google.com/?gfe_rd=cr&ei=yXwcVqHPBqug8wfx-ouYBQ&gws_rd=cr&fg=1#q=tsubasahack+ver1.1b) , one of the best Captain Tsubasa 2 hacking tools in the world, came out from my dorm.
 
