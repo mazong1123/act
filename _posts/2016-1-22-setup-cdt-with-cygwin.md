@@ -12,7 +12,7 @@ To setup CDT with cygwin, following below steps.
 1.Project -> Properties -> C/C++ General -> Preprocessor Include,
 select CDT GCC Built-in Compiler Settings Cygwin, check "Use global provider shared between projects".
 
-![cdt-1](images/cdt-1.png)
+![cdt-1](https://raw.githubusercontent.com/mazong1123/jekyll-now/gh-pages/_posts/images/cdt-1.png)
 
 2.Project -> Properties -> C/C++ General -> Paths and Symbols,
 select Symbols -> GNU C++, add following Symbol
@@ -27,7 +27,7 @@ with value:
 201303L
 ```
 
-![cdt-2](images/cdt-2.png)
+![cdt-2](https://raw.githubusercontent.com/mazong1123/jekyll-now/gh-pages/_posts/images/cdt-2.png)
 
 3.Project -> Properties -> C/C++ Build -> Settings, select Cygwin C++ Compiler. Change command to
 
@@ -35,8 +35,8 @@ with value:
 g++ -std=c++11
 ```
 
-![cdt-3](images/cdt-3.png)
+![cdt-3](https://raw.githubusercontent.com/mazong1123/jekyll-now/gh-pages/_posts/images/cdt-3.png)
 
 4.Project -> Properties -> C/C++ Build -> Settings, select Cygwin C++ Commpiler -> Dialect, Select ISO C++11 (-std=c++0x).
 
-![cdt-4](images/cdt-4.png)
+![cdt-4](https://raw.githubusercontent.com/mazong1123/jekyll-now/gh-pages/_posts/images/cdt-4.png)
