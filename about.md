@@ -13,7 +13,7 @@ I used to be a game hacker in the university. [TsubasaHack](https://www.google.c
 
 I'm also an open source guy. Fork me at [Github](http://www.github.com/mazong1123).
 
-Want to know me more about project expierences and technical stuffs? Please check out [my resume](http://mazong1123.github.io/), which is based on [RatchetPro.JS](https://github.com/mazong1123/ratchet-pro), one of my open source projects. (Note: Open my resume on your mobile device to get the bese experience).
+Want to know me more about project expierences and technical stuffs? Please check out [my resume](http://mazong1123.github.io/), which is based on [RatchetPro.JS](https://github.com/mazong1123/ratchet-pro), one of my open source projects. (Note: Open my resume on your mobile device to get the best experience).
 
 ### Contact me
 
