@@ -22,11 +22,13 @@ e23231b8230dad219e04147fb4b06a4ff9033164 48a3d23985b6b97cbaecd84e60861c0175371d7
 ```
 
 4. Let's say we want to rescue the changes on commit "Renamed xxx to yyy". We should remember the second hash value
+
 ```
 e23231b8230dad219e04147fb4b06a4ff9033164
 ```
 
 5. Execute following command. And the changes are back!
+
 ```
 git checkout -b recovery_branch e23231b8230dad219e04147fb4b06a4ff9033164
 ```
