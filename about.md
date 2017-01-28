@@ -4,19 +4,12 @@ title: About
 permalink: /about/
 ---
 
+## 为什么这个网站会存在？
 
-Hello, I'm Jim, AKA [mazong1123](https://www.google.com/?gfe_rd=cr&ei=yXwcVqHPBqug8wfx-ouYBQ&gws_rd=cr&fg=1#q=mazong1123 "mazong1123").
+因为动漫时代是我们一代人的回忆，时至今日，这个域名还一直能够在百度，bing, google中搜索到。可惜的是，当acter兴奋地点开域名，看到的却是网站无法访问。
 
-I'm a developer who loves all tech from front-end to back-end including Linux and Windows. I started coding when I was 9. I still remember I made my first game by using Basic 1.0 on a China's famous game console - Xiao Ba Wang. Since then, I used a lot of programming language - C, C++, PASCAL, C#, Java, PHP, JavaScript, etc and never stopped my coding journey.
+由于国内的诸多限制，这个网站目前host在国外，所以想要评论的同学需要学会科学上网。
 
-I used to be a game hacker in the university. [TsubasaHack](https://www.google.com/?gfe_rd=cr&ei=yXwcVqHPBqug8wfx-ouYBQ&gws_rd=cr&fg=1#q=tsubasahack+ver1.1b) , one of the best Captain Tsubasa 2 hacking tools in the world, came out from my dorm.
+## 关于未来
 
-I'm also an open source guy. Fork me at [Github](http://www.github.com/mazong1123).
-
-Want to know me more about project expierences and technical stuffs? Please check out [my resume](http://mazong1123.github.io/), which is based on [RatchetPro.JS](https://github.com/mazong1123/ratchet-pro), one of my open source projects. (Note: Open my resume on your mobile device to get the best experience).
-
-### Contact me
-
-[mazong1123@gmail.com](mailto:mazong1123@gmail.com)
-
-[MCP Site](http://www.mycertprofile.com/Profile/8769936472)
+我也有重建act网站的想法，但目前仅仅是想法而已，到底有多少人还记得A.C.T我并不知道，所以，未来的计划也会根据网站的访问量和评论数发生变化。
